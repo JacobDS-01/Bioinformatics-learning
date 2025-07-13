@@ -1,5 +1,9 @@
 from DNAToolkit import *
+import random
 
-rndDNAStr = "ATTTCGT"
+rndDNAStr = ''.join([random.choice(Nucleotides)
+                     for nuc in range(20)])
 
-print(validateSeq(rndDNAStr))
+rosalindStr = ''
+
+print(transcribeRNA(rosalindStr))

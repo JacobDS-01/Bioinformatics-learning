@@ -17,3 +17,7 @@ def countNucFrequency(seq):
     for nuc in seq:
         tmpFreqDict[nuc] += 1
     return tmpFreqDict
+
+# Replace T with U in DNA sequence to transcribe to RNA up to first 1000 chars in str
+def transcribeRNA(dna_seq):
+    return dna_seq.replace('T', 'U', 1000)
