@@ -6,4 +6,5 @@ rndDNAStr = ''.join([random.choice(Nucleotides)
 
 rosalindStr = ''
 
-print(transcribeRNA(rosalindStr))
+#print(rndDNAStr)
+print(reverseCompl(rosalindStr))
